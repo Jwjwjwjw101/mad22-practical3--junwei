@@ -1,0 +1,34 @@
+
+package sg.edu.np.listactivity;
+
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+import android.view.View;
+import android.widget.ImageView;
+
+import java.io.Console;
+
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+        AlertDialog dialog1 = intial();
+        ImageView image1 = findViewById(R.id.image1);
+        image1.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view){
+                if()
+        }
+    }
+
+
+
+    public AlertDialog initial(){
+        AlertDialog initialization = 
+        }
+    }
+}
